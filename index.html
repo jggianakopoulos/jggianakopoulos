@@ -1,32 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html class>
 	<title>Home</title>	
 	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="stylesheet.css">
-		<script>
-			function closeNav() {
-				console.log("close nav");
-				var x = document.getElementsByClassName("sideNav");
-				x[0].style.width = "5%";
-			}
-
-			function openNav() {
-				console.log("open nav");
-				var x = document.getElementsByClassName("sideNav");
-				x[0].style.width = "25%";
-			}
-		</script>
+		<script src="sideNavigation.js"></script>
 	</head>
-	<body style="height:100%">
+	<body class="site-color">
+		<div>
+        	<a class="openNav" onclick="openNav()">X| External Links</a>
+    	</div>
 		<div>
 			<div class="sideNav">
-				<a style="text-align:right" onclick="closeNav()">X</a>
+				<a style="text-align:right;" onclick="closeNav()">X</a>
 				<a href="#">Home</a>
 				<a href="#">Page 1</a>
 				<a href="#">Page 2</a>
 			</div>
-			<h1 class="header" onclick="openNav()">This is the homepage</h1>
-			<p>Lorem Ipsum</p>
+			<h1 class="header" onclick="openNav()">Homepage</h1>
 		</div>
 	</body>
 </html>
