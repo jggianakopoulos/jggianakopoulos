@@ -2,9 +2,23 @@
 <html>
 	<title>Home</title>	
 	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<script src="sideNavigation.js"></script>
 	</head>
-	<body>
-		<h1>This is the homepage.</h1>
-		<p>Lorem Ipsum</p>
+	<body class="site-color">
+		<div>
+        	<a class="openNav" onclick="openNav()">X | External Links</a>
+    	</div>
+		<div>
+			<div class="sideNav">
+				<a style="text-align:right;" onclick="closeNav()">X</a>
+				<a href="#">Home</a>
+				<a href="#">Page 1</a>
+				<a href="#">Page 2</a>
+			</div>
+			<h1 class="header" onclick="openNav()">Homepage</h1>
+		</div>
 	</body>
 </html>
+
