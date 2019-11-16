@@ -1,12 +1,13 @@
 .header {
 	font-family:Helvetica, Arial;
-	color:white;
+	color:black;
 	text-align:center;
-	background-color:gray;
+	background-color:#3c3d3c;
 	border-radius:10;
 	padding:40px 0px 10px 0px;
 	font-size: 150%;
-}
+	font-style:bold;
+*/}
 
 .sideNav {
 	height:100%;
@@ -16,7 +17,7 @@
 	transition-property:width;
 	transition-duration: 0.5s;
 	overflow-x:hidden;
-	background-color:black;
+	background-color:#303030;
 	float:left;
 	position:fixed;
 	margin:0;
@@ -26,16 +27,12 @@
 	display:block;
 	padding: 10px 10px 10px 12px;
 	white-space:nowrap;
-	color:#544f4f;
-	border-bottom:1px solid #544f4f;
+	color:#000000;
+	border-bottom:1px solid #000000;
 }
 
 .sideNav a:hover {
 	color:white;
-}
-
-.site-color {
-	background-color:#2b2928;
 }
 
 .openNav {
@@ -49,5 +46,5 @@
 html, body {
 	margin:0;
 	padding:0;
-	background-color:#2b2928
+	background-color:#000000
 }
