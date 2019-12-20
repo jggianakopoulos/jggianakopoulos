@@ -1,0 +1,19 @@
+.middle {
+	border-radius:5px;
+	height:500px;
+	width:82%;
+	margin:auto;
+	background:#303030;
+	padding:25px;
+	margin-top:5px;
+}
+
+.question {
+	text-align:center;
+	display:inline-block;
+}
+
+.answers {
+	text-align:center;
+	display:inline-block;
+}
