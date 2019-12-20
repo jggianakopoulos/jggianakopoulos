@@ -1,0 +1,21 @@
+<!DOCTYPE html >
+<html style='background-color:black;'>
+	<title>Maps</title>
+	<head>
+		<script src="../js/jquery-3.4.1.js"></script>
+		<script>$(function() {$(".container").load("frame.html");});</script>
+		<link rel="stylesheet" type="text/css" href="../css/maps.css">
+		<script src="../js/maps.js"></script>
+	</head>
+	<body>
+		<div class="container"></div>
+		<div>
+			<h1 class="main-header">Maps Integration</h1>
+		</div>
+		<div style="height:500px">
+			<div id="map"></div>
+		</div>
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVjT8K8gEfdmNkbT70cI0WsSJyLYDxWs4&callback=addMap">
+		</script>
+	</body>
+</html>

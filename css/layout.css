@@ -1,4 +1,4 @@
-.header {
+.main-header {
 	font-family:Helvetica, Arial;
 	color:black;
 	text-align:center;
@@ -50,4 +50,5 @@ html, body {
 	padding:0;
 	background-color:#000000
 }
+
 
